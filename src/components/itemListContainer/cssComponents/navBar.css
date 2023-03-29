@@ -1,0 +1,68 @@
+.navbar{
+  background-color: rgb(160, 253, 253);
+border: black 2px solid;
+font-family: cursive;
+height: 150px;
+}
+
+.main-text {
+  display: flex;
+  justify-content: center;
+  border: 1px transparent solid;
+  text-align: center;
+  border-radius: 5px;
+  width: 8%;
+  margin-left: 46%;
+  color: white;
+  background-color: rgb(56, 37, 14);
+}
+
+.div-buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.button-bajilla{
+  margin: 5px;
+  border-radius: 5px;
+  border: transparent 1px solid;
+  background-color: rgb(56, 37, 14);
+  color: white;
+  font-family: cursive;
+  margin-right: 7px;
+  width: 10%;
+}
+.button-bajilla:hover{
+  border: transparent 1px solid;
+  background-color: rgb(160, 253, 253);
+  color: black;
+  border: black 1px solid;
+  border-radius: 5px;
+}
+
+.imgCart{
+  width: 30px;
+  margin-right: 8px;
+  margin-left: 25%;
+}
+
+.cartDiv{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-right: 5%;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 4%;
+  color: white;
+  background-color: black;
+}
+.greeting{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: black 3px solid;
+  background-color:rgb(160, 253, 253) ;
+  font-family: cursive;
+}

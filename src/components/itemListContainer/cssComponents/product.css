@@ -1,0 +1,51 @@
+.prod {
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: rgb(160, 253, 253);
+    color: black;
+    width: 20%;
+    text-align: center;
+    margin: 30px;
+    margin-left: 50px;
+}
+.button-prod{
+    margin: 5px;
+    border-radius: 5px;
+    border: transparent 1px solid;
+    background-color: rgb(56, 37, 14);
+    color: white;
+    font-family: cursive;
+    width: 30%;
+}
+.button-prod:hover{
+    border: transparent 1px solid;
+    background-color: rgb(160, 253, 253);
+    color: black;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+.prodsApp{
+    display: flex;
+    align-items: center;
+    background-color: rgb(56, 37, 14);
+    height: 540px;
+    border-left: 3px black solid;
+    border-right: 3px black solid;
+    border-bottom: 3px black solid;
+}
+.imgProds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 75%;
+    border-radius: 10px;
+    border: black solid 2px;
+
+}
