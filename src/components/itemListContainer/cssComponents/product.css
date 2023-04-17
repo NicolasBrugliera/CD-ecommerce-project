@@ -1,5 +1,6 @@
 .prod {
     font-family: cursive;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,6 +21,7 @@
     background-color: rgb(56, 37, 14);
     color: white;
     font-family: cursive;
+    font-weight: bold;
     width: 30%;
 }
 .button-prod:hover{
@@ -34,7 +36,6 @@
     display: flex;
     align-items: center;
     background-color: rgb(56, 37, 14);
-    height: 540px;
     border-left: 3px black solid;
     border-right: 3px black solid;
     border-bottom: 3px black solid;

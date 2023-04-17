@@ -11,10 +11,12 @@ height: 150px;
   border: 1px transparent solid;
   text-align: center;
   border-radius: 5px;
-  width: 8%;
-  margin-left: 46%;
+  width: 10%;
+  height: 18%;
+  margin-left: 44.9%;
   color: white;
   background-color: rgb(56, 37, 14);
+  margin-top: 15px;
 }
 
 .div-buttons{
@@ -31,6 +33,7 @@ height: 150px;
   font-family: cursive;
   margin-right: 7px;
   width: 10%;
+  text-align: center;
 }
 .button-bajilla:hover{
   border: transparent 1px solid;

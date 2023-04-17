@@ -1,0 +1,23 @@
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    margin: 25px;
+    background-color: rgb(56, 37, 14);
+    color: white;
+    border: solid black 2px;
+    border-radius: 5px;
+    height: 35px;
+    width: 50px;
+    font-size: 28px;
+}
+.qty{
+    font-size: 18px;
+}
