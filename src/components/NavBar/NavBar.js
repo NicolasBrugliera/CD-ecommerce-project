@@ -8,7 +8,7 @@ const NavBar = () => {
             <div className='div-buttons'>
                 <NavLink to = {`/category/vajilla`} className='button-bajilla' >Vajilla</NavLink>
                 <NavLink to = {`/category/decoJardin`} className='button-bajilla' >Deco Exterior</NavLink>
-                <NavLink to = {`/category/decoInt`} className='button-bajilla' >Deco Interior</NavLink>
+                <NavLink to = {`/category/decoInterior`} className='button-bajilla' >Deco Interior</NavLink>
             </div>
             <div>
                 <CartWidget/>
