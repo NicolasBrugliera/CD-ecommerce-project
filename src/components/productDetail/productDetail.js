@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import { getProductById } from "../asyncMock"
 import ItemDetail from "../items/itemDetail"
 import { useParams } from "react-router-dom"
-
+import './productDetail.css'
 
 const ProductDetail = ()=> {
     const [product, setProduct] = useState(null)
@@ -20,7 +20,7 @@ const ProductDetail = ()=> {
     },[itemId])
 
     return( 
-        <div>
+        <div className="pdbg">
             <ItemDetail  {...product} />
         </div>
     )
